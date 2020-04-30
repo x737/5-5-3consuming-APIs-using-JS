@@ -24,6 +24,14 @@ by passing the string received from the server to the ***JSON.parse()*** method
 cause the result got by "document.getElementById("data").innerHTML = this.responseText" is a string, not an object,
 so we have to use Json.parse() to pass the string to Json data structure
 
-## Getting functional
+## Getting functional (mian2.js)
 Functional programming allows to pass our data around to different functions by creating and invoking functions
 This is also called deserializing JSON.
+
+## Timeout!
+
+setTimeout() function allows us to tell our application to stop executing for a period of time
+
+## Callbaks
+
+Callback functions allows us to pass functions as arguments by passing a function to another function
