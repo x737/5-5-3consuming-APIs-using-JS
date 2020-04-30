@@ -16,7 +16,7 @@ this gives us the method to open connections, to send connections, and close the
 + The <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">HTTP status code</a> of 200 means "OK", request succeeded
 + then use some JavaScript to getElementById() from the DOM and change its innerHTML to the response text that comes back from our xhr object
 
-## Json parse()
+## Json parse (main1.js)
 
 Json parse alles us to parse the text received from the server as JavaScript objects
 by passing the string received from the server to the ***JSON.parse()*** method
@@ -24,3 +24,6 @@ by passing the string received from the server to the ***JSON.parse()*** method
 cause the result got by "document.getElementById("data").innerHTML = this.responseText" is a string, not an object,
 so we have to use Json.parse() to pass the string to Json data structure
 
+## Getting functional
+Functional programming allows to pass our data around to different functions by creating and invoking functions
+This is also called deserializing JSON.
