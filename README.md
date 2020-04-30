@@ -1,6 +1,6 @@
 # Consuming APIs using JavaScript
 
-## xhr (index.html and main.js)
+## xhr (see index.html and main.js)
 
 xhr allows us to call external APIs from our Javascript application
 by instantiating the **XMLHttpRequest** object
@@ -15,3 +15,12 @@ this gives us the method to open connections, to send connections, and close the
 + The xhr object maintains <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState">an internal state</a> as it's completing various parts of our request operation. And "readyState = 4" means that the operation has been completed.
 + The <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">HTTP status code</a> of 200 means "OK", request succeeded
 + then use some JavaScript to getElementById() from the DOM and change its innerHTML to the response text that comes back from our xhr object
+
+## Json parse()
+
+Json parse alles us to parse the text received from the server as JavaScript objects
+by passing the string received from the server to the ***JSON.parse()*** method
+
+cause the result got by "document.getElementById("data").innerHTML = this.responseText" is a string, not an object,
+so we have to use Json.parse() to pass the string to Json data structure
+
