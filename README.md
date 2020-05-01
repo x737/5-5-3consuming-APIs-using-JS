@@ -28,10 +28,12 @@ so we have to use Json.parse() to pass the string to Json data structure
 Functional programming allows to pass our data around to different functions by creating and invoking functions
 This is also called deserializing JSON.
 
-## Timeout!
+## Timeout! (main3.js)
 
-setTimeout() function allows us to tell our application to stop executing for a period of time
+setTimeout() function allows us to tell our application to stop executing for a period of time.
 
-## Callbaks
+that's how we can get our code to wait on execution.
+
+## Callbaks (main4.js)
 
 Callback functions allows us to pass functions as arguments by passing a function to another function

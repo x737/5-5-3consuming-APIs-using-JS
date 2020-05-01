@@ -15,4 +15,4 @@ function printDataToConsole(data) {
     console.log(data);
 }
 
-getData(printDataToConsole);s
+getData(printDataToConsole);
